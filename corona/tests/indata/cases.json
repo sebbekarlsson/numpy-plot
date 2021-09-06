@@ -1,0 +1,95 @@
+{
+   "records" : [
+      {
+         "dateRep" : "02/09/2021",
+         "day" : "02",
+         "month" : "09",
+         "year" : "2021",
+         "cases" : 1821,
+         "deaths" : 6,
+         "countriesAndTerritories" : "Austria",
+         "geoId" : "AT",
+         "countryterritoryCode" : "AUT",
+         "popData2020" : "8901064",
+         "continentExp" : "Europe"
+      },
+      {
+         "dateRep" : "01/09/2021",
+         "day" : "01",
+         "month" : "09",
+         "year" : "2021",
+         "cases" : 1265,
+         "deaths" : 1,
+         "countriesAndTerritories" : "Austria",
+         "geoId" : "AT",
+         "countryterritoryCode" : "AUT",
+         "popData2020" : "8901064",
+         "continentExp" : "Europe"
+      },
+      {
+         "dateRep" : "31/08/2021",
+         "day" : "31",
+         "month" : "08",
+         "year" : "2021",
+         "cases" : 1092,
+         "deaths" : 2,
+         "countriesAndTerritories" : "Austria",
+         "geoId" : "AT",
+         "countryterritoryCode" : "AUT",
+         "popData2020" : "8901064",
+         "continentExp" : "Europe"
+      },
+      {
+         "dateRep" : "30/08/2021",
+         "day" : "30",
+         "month" : "08",
+         "year" : "2021",
+         "cases" : 1339,
+         "deaths" : 5,
+         "countriesAndTerritories" : "Austria",
+         "geoId" : "AT",
+         "countryterritoryCode" : "AUT",
+         "popData2020" : "8901064",
+         "continentExp" : "Europe"
+      },
+      {
+         "dateRep" : "29/08/2021",
+         "day" : "29",
+         "month" : "08",
+         "year" : "2021",
+         "cases" : 1408,
+         "deaths" : 4,
+         "countriesAndTerritories" : "Austria",
+         "geoId" : "AT",
+         "countryterritoryCode" : "AUT",
+         "popData2020" : "8901064",
+         "continentExp" : "Europe"
+      },
+      {
+         "dateRep" : "28/08/2021",
+         "day" : "28",
+         "month" : "08",
+         "year" : "2021",
+         "cases" : 1490,
+         "deaths" : 2,
+         "countriesAndTerritories" : "Austria",
+         "geoId" : "AT",
+         "countryterritoryCode" : "AUT",
+         "popData2020" : "8901064",
+         "continentExp" : "Europe"
+      },
+      {
+         "dateRep" : "27/08/2021",
+         "day" : "27",
+         "month" : "08",
+         "year" : "2021",
+         "cases" : 1535,
+         "deaths" : 2,
+         "countriesAndTerritories" : "Austria",
+         "geoId" : "AT",
+         "countryterritoryCode" : "AUT",
+         "popData2020" : "8901064",
+         "continentExp" : "Europe"
+      }
+   ]
+}
