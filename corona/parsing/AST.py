@@ -1,6 +1,6 @@
 from enum import Enum
 
-from corona.parsing.token import Token
+from corona.parsing.langtoken import Token
 from typing import List
 
 

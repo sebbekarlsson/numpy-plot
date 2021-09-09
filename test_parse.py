@@ -1,14 +1,13 @@
 from corona.parsing.lexer import Lexer
 from corona.parsing.langtoken import TokenType
+from corona.parsing.parser import Parser
 
 
 query = "cases.date == vaccines.date"
 
 
 lexer = Lexer(query)
+parser = Parser(lexer)
+ast = parser.parse()
 
-token = lexer.get_next_token()
-
-while token.type != TokenType.TOKEN_EOF:
-    print(token.value)
-    token = lexer.get_next_token()
+print(ast)
