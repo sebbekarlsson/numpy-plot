@@ -1,6 +1,7 @@
 from enum import Enum
 
 from corona.parsing.token import Token
+from typing import List
 
 
 class ASTType(Enum):
@@ -8,6 +9,7 @@ class ASTType(Enum):
     AST_ID = 1
     AST_STRING = 2
     AST_NUMBER =  3
+    AST_COMPOUND = 4
 
 
 class AST(object):
@@ -26,3 +28,9 @@ class ASTID(AST):
 
     def __init__(self, value: str):
         self.value = value
+
+
+class ASTCompound(AST):
+
+    def __init__(self, children: List[AST]):
+        self.children = children
