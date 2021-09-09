@@ -4,10 +4,9 @@ from corona.parsing.parser import Parser
 from corona.parsing.emit import emit
 
 
-# Rack upp handen nar ni har detta
 def create_filter(query: str, db):
     lexer = Lexer(query)
     parser = Parser(lexer)
     ast = parser.parse()
 
-    return emit(ast, db)
+    return emit(ast, db, db.classmap)

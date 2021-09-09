@@ -11,9 +11,10 @@ clean_name = lambda x: pathlib.Path(x).name.replace('.json', '')
 class DB(object):
 
 
-    def __init__(self, filenames):
+    def __init__(self, filenames, classmap):
         self.filenames = filenames
         self.data = {}
+        self.classmap = classmap
 
     # self.filenames => {
     #    "cases": [...],
