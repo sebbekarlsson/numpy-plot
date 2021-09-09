@@ -12,4 +12,4 @@ vaccine = db.get('vaccine', Vaccine)
 
 
 for case in cases:
-    print(case.date)
+    print(case.__dict__)

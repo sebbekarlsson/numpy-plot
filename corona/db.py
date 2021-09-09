@@ -3,6 +3,7 @@ import json
 from functools import reduce
 
 
+
 # corona/indata/cases.json => "cases"
 clean_name = lambda x: pathlib.Path(x).name.replace('.json', '')
 
