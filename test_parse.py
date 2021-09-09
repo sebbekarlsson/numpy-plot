@@ -1,13 +1,11 @@
-from corona.parsing.lexer import Lexer
-from corona.parsing.langtoken import TokenType
-from corona.parsing.parser import Parser
+from corona.parsing.filter import create_filter
+from corona.db import DB
 
 
-query = "cases.date == vaccines.date"
+
+db = DB(["corona/indata/cases.json", "corona/indata/vaccine.json"])
+
+db.open()
 
 
-lexer = Lexer(query)
-parser = Parser(lexer)
-ast = parser.parse()
-
-print(ast)
+print(create_filter("cases.date == vaccine.date", db))

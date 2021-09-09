@@ -30,16 +30,20 @@ class Parser(object):
 
 
     def parse_term(self):
-        left = self.parse_factor()
-
+        return self.parse_factor()
 
     def parse_expr(self):
         left = self.parse_term()
 
+        while self.current_token.type == TokenType.TOKEN_DOT:
+            binop = ASTBinop(left, None, self.current_token)
+            self.eat(self.current_token.type)
+            binop.right = self.parse_term()
+            left = binop
+
         while self.current_token.type in [
                 TokenType.TOKEN_LT,
                 TokenType.TOKEN_GT,
-                TokenType.TOKEN_DOT,
                 TokenType.TOKEN_EQUALS_EQUALS,
                 TokenType.TOKEN_NOT_EQUALS
         ]:
